@@ -3,12 +3,12 @@
 set -e
 
 DEFAULT_GITHUB_OWNER="dragonpilot-community"
-DEFAULT_GITHUB_BRANCH="r2"
+DEFAULT_GITHUB_BRANCH="d2"
 
 if [ $# -ne 1 ]; then
     echo "Usage: $0 <option>"
     echo "Options:"
-    echo "1. Dragon Pilot - R2"
+    echo "1. Dragon Pilot - D2"
     echo "2. Dragon Pilot - Deprecated-Release2 (dogtreatfairy)"
     echo "3. Open Pilot - 0.8.13 (Stock)"
     exit 1
@@ -19,7 +19,7 @@ OPTION=$1
 case $OPTION in
     1)
         GITHUB_USER="dragonpilot-community"
-        BRANCH="r2"
+        BRANCH="d2"
         REPO="dragonpilot.git"
         ;;
     2)
