@@ -18,11 +18,11 @@ Installing stock openpilot 0.8.13.1.
 6. Connect to that IP using SSH, or use [Openpilot Toolkit](https://github.com/spektor56/OpenpilotToolkit). 
 7. Paste this command into your SSH session:
 
-   DragonPilot - R2 `curl -Ls https://raw.githubusercontent.com/dogtreatfairy/neos-manual-install/main/c2setup.sh | bash -e -s 1`
+   DragonPilot - d2 `curl -Ls https://raw.githubusercontent.com/greasysock/neos-manual-install/main/c2setup.sh | bash -e -s 1`
 
-   DragonPilot - deprecated-Release2 (dogtreatfairy) `curl -Ls https://raw.githubusercontent.com/dogtreatfairy/neos-manual-install/main/c2setup.sh | bash -e -s 2`
+   DragonPilot - deprecated-Release2 (dogtreatfairy) `curl -Ls https://raw.githubusercontent.com/greasysock/neos-manual-install/main/c2setup.sh | bash -e -s 2`
 
-   OpenPilot - Release2 0.8.13 (Stock) `curl -Ls https://raw.githubusercontent.com/dogtreatfairy/neos-manual-install/main/c2setup.sh | bash -e -s 3`
+   OpenPilot - Release2 0.8.13 (Stock) `curl -Ls https://raw.githubusercontent.com/gresysock/neos-manual-install/main/c2setup.sh | bash -e -s 3`
 
 # Advanced usage
 
